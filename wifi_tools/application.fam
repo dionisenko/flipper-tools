@@ -1,0 +1,13 @@
+App(
+    appid="wifi_tools",
+    name="WiFi Tools",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="wifi_tools_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_icon="wifi_10px.png",
+    fap_category="GPIO",
+    fap_description="WiFi security testing tools using the WiFi Devboard (ESP32-S2)",
+    fap_version=(1, 0),
+    fap_author="flipper-tools contributors",
+)
