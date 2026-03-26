@@ -1,0 +1,13 @@
+App(
+    appid="subghz_tools",
+    name="Sub-GHz Tools",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="subghz_tools_app",
+    requires=["gui", "subghz"],
+    stack_size=4 * 1024,
+    fap_icon="subghz_10px.png",
+    fap_category="Sub-GHz",
+    fap_description="Sub-GHz signal capture and replay for garage-door remotes and similar devices",
+    fap_version=(1, 0),
+    fap_author="flipper-tools contributors",
+)
